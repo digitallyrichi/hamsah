@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, ShieldCheck, Lock, Award, Building2 } from 'lucide-react';
+import heroExecutiveAdvisoryImg from '../assets/images/hero_executive_advisory_1794306238964.jpg';
 
 interface HeroProps {
   onExploreLifecycle: () => void;
@@ -86,7 +87,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreLifecycle, onBookClick }) =
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-white/10 shadow-2xl bg-slate-100 dark:bg-[#141f2d]">
               <img
-                src="/src/assets/images/hero_executive_advisory_1794306238964.jpg"
+                src={heroExecutiveAdvisoryImg}
                 alt="HAMSAH Group Solutions executive advisory meeting in corporate boardroom"
                 referrerPolicy="no-referrer"
                 className="w-full h-[400px] lg:h-[480px] object-cover filter brightness-[0.95] dark:brightness-[0.92] contrast-[1.05] hover:scale-105 transition-transform duration-700"

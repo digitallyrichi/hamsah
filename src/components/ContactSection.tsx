@@ -6,6 +6,7 @@ import {
   Building2,
 } from 'lucide-react';
 import { WhatsAppIcon, WHATSAPP_URL } from './WhatsAppButton';
+import corporateGurugramHubImg from '../assets/images/corporate_gurugram_hub_1794306239246.jpg';
 
 export const ContactSection: React.FC = () => {
   const [copiedEmail, setCopiedEmail] = useState(false);
@@ -118,7 +119,7 @@ export const ContactSection: React.FC = () => {
         {/* Corporate Hub Visual Banner */}
         <div className="rounded-2xl overflow-hidden border border-slate-200 dark:border-white/10 bg-slate-900 dark:bg-[#141f2d] relative min-h-[300px] sm:min-h-[360px] flex flex-col justify-end shadow-md">
           <img
-            src="/src/assets/images/corporate_gurugram_hub_1794306239246.jpg"
+            src={corporateGurugramHubImg}
             alt="HAMSAH Group Solutions Gurugram Headquarters Skyline"
             referrerPolicy="no-referrer"
             className="absolute inset-0 w-full h-full object-cover filter brightness-[0.85]"

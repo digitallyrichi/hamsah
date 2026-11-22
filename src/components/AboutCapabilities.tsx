@@ -10,6 +10,8 @@ import {
   Layers,
 } from 'lucide-react';
 import { PRACTICE_AREAS } from '../data/lifecycleData';
+import capabilitiesBusinessStrategyImg from '../assets/images/capabilities_business_strategy_1794306239115.jpg';
+import advisoryLegalBiddingImg from '../assets/images/advisory_legal_bidding_1794306240002.jpg';
 
 interface AboutCapabilitiesProps {
   onSelectPractice: (practiceTitle: string) => void;
@@ -67,7 +69,7 @@ export const AboutCapabilities: React.FC<AboutCapabilitiesProps> = ({ onSelectPr
           <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="rounded-xl overflow-hidden border border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-[#141f2d] relative group shadow-sm">
               <img
-                src="/src/assets/images/capabilities_business_strategy_1794306239115.jpg"
+                src={capabilitiesBusinessStrategyImg}
                 alt="Business Strategy Planning Session"
                 referrerPolicy="no-referrer"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
@@ -82,7 +84,7 @@ export const AboutCapabilities: React.FC<AboutCapabilitiesProps> = ({ onSelectPr
 
             <div className="rounded-xl overflow-hidden border border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-[#141f2d] relative group shadow-sm">
               <img
-                src="/src/assets/images/advisory_legal_bidding_1794306240002.jpg"
+                src={advisoryLegalBiddingImg}
                 alt="Legal Coordination & Bid Management Still Life"
                 referrerPolicy="no-referrer"
                 className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
