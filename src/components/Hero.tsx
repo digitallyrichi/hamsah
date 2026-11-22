@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, ShieldCheck, Lock, Award, Building2 } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Lock, Award } from 'lucide-react';
 import heroExecutiveAdvisoryImg from '../assets/images/hero_executive_advisory_1794306238964.jpg';
 
 interface HeroProps {
